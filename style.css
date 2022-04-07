@@ -12,6 +12,8 @@ div.product-card {
     */
     border: 1px solid black;
     border-radius: 5px;
+
+    position: relative;
     
 }
 
@@ -29,4 +31,19 @@ div.product-card button {
     border: none;    
     padding: 10px 10px;
     border-radius: 5px;
+}
+
+div.product-card span {    
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+div.navbar {
+    width: 100%;
+    height: 40px;
+    background: #00915a;
+    position: fixed; /*fixe la barre en haut meme si on scroll*/
+    top: 0;
+    z-index: 1;/* on place la navbar en premier plan, vu que j'ai laissé les autres élément à 0 (valeur par défaut)*/
 }
