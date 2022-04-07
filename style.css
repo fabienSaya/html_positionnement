@@ -1,0 +1,32 @@
+div.product-card {    
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto; /*permet de centrer la card. Le 0 est optionnel. C'est la marge haute.*/
+    background: rgb(239, 239,  239);    
+    /*
+    border-width: 1px;    
+    border-style: solid;    
+    border-color: black;
+
+    pareil que:
+    */
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+div.product-card img{
+    width: 100%;    
+}
+
+div.product-card h2, div.product-card p {
+    text-align: center;
+}
+
+div.product-card button {
+    width: 100%;    
+    background: orange;
+    border: none;    
+    padding: 10px 10px;
+    border-radius: 5px;
+}
